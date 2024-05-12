@@ -9,7 +9,7 @@
       <li>Run the command <b>kubectl apply -f .\createConfigMap.yaml</b></li>
       <li>Run the command <b>kubectl apply -f .\createMongoDbSecret.yaml</b></li>
       <li>Run the command <b>kubectl apply -f .\createHeadlessService.yaml</b></li>
-      <li>Check the deployment status using this command <b>kubectl get deployments</b></li>
+      <li>Check the statefulset status using this command <b>kubectl get statefulsets</b></li>
       <li>Check the pods status using this command <b>kubectl get pods</b></li>
       <li>Check the service status using this command <b>kubectl get services</b></li>
       <li>Once the pods are ready try this command <b>kubectl exec -it mongo-0 -- mongo</b></li>
