@@ -13,7 +13,7 @@
       <li>Check the pods status using this command <b>kubectl get pods</b></li>
       <li>Check the service status using this command <b>kubectl get services</b></li>
       <li>Once the pods are ready try this command <b>kubectl exec -it mongo-0 -- mongo</b></li>
-      <li>then paste this command in mongo shell<b>rs.initiate({
+      <li>Then paste this command in mongo shell <b>rs.initiate({
    _id: "rs0",
    members: [
      { _id: 0, host: "mongo-0.mongo.default.svc.cluster.local:27017" },
